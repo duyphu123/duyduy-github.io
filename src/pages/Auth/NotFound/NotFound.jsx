@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import PropTypes from "prop-types";
+import React from "react";
+
 
 export default function NotFound(){
     return <div>NotFound</div>
