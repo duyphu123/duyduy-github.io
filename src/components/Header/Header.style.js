@@ -90,7 +90,7 @@ export const PopoverContent = styled.div`
 `
 export const PopoverTitle = styled.div`
   padding: 1.5rem 0 2rem 1rem;
-  color: rgba(0, 0, 0, 0.26);
+  color: black;
   text-transform: capitalize;
 `
 export const MiniProductCart = styled.div`
