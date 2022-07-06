@@ -1,17 +1,17 @@
-import React, { Component } from "react";
-import { Routes, Route, Link } from "react-router-dom";
-import { path } from "./constants/path";
-import Home from "./pages/Auth/Home/Home";
+import React, {} from "react";
+import { Routes, Route } from "react-router-dom";
+
+
 import NotFound from "./pages/Auth/NotFound/NotFound";
-import Login from "./pages/Auth/Login/Login";
-import Register from "./pages/Auth/Register/Register";
+
 import RegisterLayout from "./layouts/RegisterLayout/RegisterLayout";
 import RegisterLayoutLogin from "./layouts/RegisterLayoutLogin/RegisterLayoutLogin";
+import MainLayout from "./layouts/MainLayout/MainLayout";
 
 export default function Routes1() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/" element={<MainLayout />} />
       <Route
         path="/login"
         element={<RegisterLayoutLogin title="Đăng Nhập"></RegisterLayoutLogin>}

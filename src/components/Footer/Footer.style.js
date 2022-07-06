@@ -1,9 +1,10 @@
 import styled from "styled-components";
 export const Footer = styled.footer`
+background-color: #a9a9a9;
 font-size: 1.4rem;
-color: red;
+color: black;
 padding: 4.2rem;
-background-color: #f5f5f5;
+
 min-width: max-content;
 `
 export const Footer1= styled.div`

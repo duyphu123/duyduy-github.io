@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 export const Header=styled.header`
+
 box-shadow: 6px;
 width: 100%;
 min-width: max-content;
