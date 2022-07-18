@@ -16,13 +16,8 @@ class Http {
         const result = { ...response.data, status: response.status }
         return result
       },
-      ({ response }) => {
-        // if (response.status === 401) {
-        //   toast.error(response.data.message, {
-        //     position: 'top-center',
-        //     autoClose: 3000
-        //   })
-        // }
+      ({ response })  => {
+  
         const result = { ...response.data, status: response.status }
         return Promise.reject(result)
       }

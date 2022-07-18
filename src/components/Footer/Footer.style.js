@@ -6,6 +6,10 @@ color: black;
 padding: 4.2rem;
 
 min-width: max-content;
+position: relative;
+bottom: 0;
+right:0;
+width: 100%;
 `
 export const Footer1= styled.div`
 display: flex;

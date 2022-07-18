@@ -3,6 +3,9 @@ import { Button } from "../../../assets/styles/untils";
 export const StyledRegister = styled.div`
   background-color: #d70018;
   min-width: max-content;
+  height: 600px;
+  display: flex;
+  align-items: center;
 `;
 export const Container = styled.div`
   padding: 8rem;
@@ -18,6 +21,7 @@ export const FormWrapper = styled.div`
   border-radius: 20px;
   background-color: #fff;
   padding: 3.5rem 3rem 5rem;
+ 
 `;
 export const FormTitle = styled.div`
   font-size: 20px;

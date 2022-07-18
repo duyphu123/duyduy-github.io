@@ -14,6 +14,10 @@ import * as S from "./Register.style"
 
 
 export default function Register() {
+  
+ 
+  
+  
   const {
     control,
     handleSubmit,
@@ -49,15 +53,18 @@ export default function Register() {
         }
       }
     }
-}
+}   
 
   return (
+    
     <div>
+      
       <S.StyledRegister>
         <S.Container className="container">
           <S.Banner />
           <S.FormWrapper>
             <S.FormTitle>Đăng Ký</S.FormTitle>
+            
             <S.Form onSubmit={handleSubmit(handleRegister)} noValidate>
               <S.FormControl>
                 <Controller

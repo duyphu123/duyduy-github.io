@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from '../../components/Footer/Footer'
 import Header from '../../components/Header/Header'
 import PropTypes from 'prop-types'
-import Home from '../../pages/Auth/Home/Home'
+import Home from '../../pages/Home/Home'
 
 export default function MainLayout({ children }) {
   return (

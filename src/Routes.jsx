@@ -2,7 +2,7 @@ import React, {} from "react";
 import { Routes, Route } from "react-router-dom";
 
 
-import NotFound from "./pages/Auth/NotFound/NotFound";
+import NotFound from "./pages/NotFound/NotFound";
 
 import RegisterLayout from "./layouts/RegisterLayout/RegisterLayout";
 import RegisterLayoutLogin from "./layouts/RegisterLayoutLogin/RegisterLayoutLogin";
