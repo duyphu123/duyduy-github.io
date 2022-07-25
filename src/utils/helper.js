@@ -10,3 +10,17 @@ export const isEmail = value =>
       return thunkAPI.rejectWithValue(error)
     }
   }
+
+  export const generateNameId = ({ name, _id }) =>
+  encodeURIComponent(`${name.replace(/\s/g, '-').replace(/%/g, '')}-i.${_id}`)
+
+  export const formatMoney = (value, character = '.') =>
+  String(value).replace(/\B(?=(\d{3})+(?!\d))/g, character)
+
+  export const formatK = value => {
+    const price = Number((Number(value) / 1000).toFixed(2))
+    if (price > 1) {
+      return price + 'k'
+    }
+    return value
+  }

@@ -27,7 +27,7 @@ export const CategoryItem = styled.li`
     color: rgba(0, 0, 0, 0.8);
     &.active {
       font-weight: 700;
-      color: #ee4d2d;
+      color: #d70018;
     }
   }
 `
